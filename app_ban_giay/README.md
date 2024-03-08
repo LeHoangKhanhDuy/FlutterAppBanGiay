@@ -1,16 +1,23 @@
 # app_ban_giay
 
-A new Flutter project.
+Tải VSCode phiên bản mới nhất
 
-## Getting Started
+1.Thư mục hình ảnh => assets/
 
-This project is a starting point for a Flutter application.
+2.Thư mục => lib/common/widgets rút gọn code cho thư mục chính, khi vào file chính chỉ cần gọi nó ra
 
-A few resources to get you started if this is your first Flutter project:
+3.Thư mục các câu lệnh xử lý => lib/features/authentication/controller
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4.Thư mục => utils/constants lưu file như màu, hình ảnh, kích thước,... để gọi vào file chính.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5.Thư mục => utils/constants lưu file setting thiết bị.
+
+6.Thư mục => utils/formatter lưu file format số điện thoại, ngày tháng năm,....
+
+7.Thư mục => utils/helper lưu file tính toán và các chức năng
+
+8.Thư mục => utils/local_storage lưu file lưu trữ dữ liệu
+
+9.Thư mục => utils/theme/custom_themes lưu file setting template
+
+10.Thư mục => utils/theme/validators lưu file validate
