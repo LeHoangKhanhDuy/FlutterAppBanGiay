@@ -1,6 +1,8 @@
 # FlutterAppBanGiay
 Tải VSCode phiên bản mới nhất
 
+Chạy file app.dart trong thư mục lib/utils
+
 1.Thư mục hình ảnh => assets/
 
 2.Thư mục => lib/common/widgets rút gọn code cho thư mục chính, khi vào file chính chỉ cần gọi nó ra

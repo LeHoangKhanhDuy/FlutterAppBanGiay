@@ -1,8 +1,10 @@
 import 'package:app_ban_giay/common/widgets/form_line.dart';
 import 'package:app_ban_giay/common/widgets/social_button.dart';
+import 'package:app_ban_giay/features/authentication/screens/signup/verify_email.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:app_ban_giay/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class SignUpForm extends StatelessWidget {
@@ -87,7 +89,7 @@ class SignUpForm extends StatelessWidget {
         // ),
         const SizedBox(height: TSizes.spaceBtwSections,),
         //SignUp Btn
-        SizedBox(width: double.infinity, child: ElevatedButton(onPressed: (){}, child: const Text(TTexts.createAcc))),
+        SizedBox(width: double.infinity, child: ElevatedButton(onPressed: ()=> Get.to(() => const VerifyEmailScreen()), child: const Text(TTexts.createAcc))),
     
         const SizedBox(height: TSizes.spaceBtwSections,),
     
