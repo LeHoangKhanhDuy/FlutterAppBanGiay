@@ -63,6 +63,13 @@ class SignUpForm extends StatelessWidget {
           decoration: const InputDecoration(labelText: TTexts.password, prefixIcon: Icon(Iconsax.password_check), suffixIcon: Icon(Iconsax.eye_slash)),
         ),
         const SizedBox(height: TSizes.spaceBtwInputFields,),
+
+        //ConfirmPass
+        TextFormField(
+          obscureText: true,                   
+          decoration: const InputDecoration(labelText: TTexts.confirmPassword, prefixIcon: Icon(Iconsax.password_check), suffixIcon: Icon(Iconsax.eye_slash)),
+        ),
+        const SizedBox(height: TSizes.spaceBtwInputFields,),
     
         //Checkbox
         // Row(
